@@ -2,9 +2,6 @@
  font-family: Roboto;
 }
 
-body {
- margin: 0;
-}
 
 .wrapper {
  margin: auto;
@@ -60,6 +57,7 @@ background: #C8DBFB;
   align-items: center;
 }
 
+
 .menu_item{
   position: relative;
   margin-right: 26px;
@@ -69,9 +67,11 @@ background: #C8DBFB;
   transition: opacity .5s;
 }
 
+
 .menu_item:hover{
   opacity:0.5;
 }
+
 
 .menu_item:after{
   position: absolute;
@@ -85,9 +85,11 @@ background: #C8DBFB;
   transition: opacity .5s,width .5s;
 }
 
+
 .menu_item:hover:after,.menu__item_active:after{
   opacity:1;
 }
+
 
 .menu_item:last-child{
   margin-right: 0;
