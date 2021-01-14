@@ -95,3 +95,44 @@ background: #C8DBFB;
 .menu_item:last-child{
   margin-right: 0;
 }
+
+
+.main{
+  padding-top: 100px;
+  padding-right: 63%;
+  background:  no-repeat url(img/mainimg.svg);
+  background-position: center right;
+}
+
+
+.main__title{
+  margin: 0 0 40px 0;
+  font: bold 50px/65px 'pt_serifregular',arial,helvetics,sans-serif;
+}
+
+
+.main__subtitle{
+margin:0 0 41px 0;
+font: 500 18px/21px Roboto,arial,helvetics,sans-serif;
+}
+
+
+.main__button{
+display: inline-block;
+font: 14px/16px Roboto,arial,helvetics,sans-serif;
+color: #fff;
+background: #0056EC;
+padding: 14px 16px;
+text-decoration: none;
+border-radius: 4px;
+}
+
+
+.main__button:hover{
+  opacity: .5;
+}
+
+
+.main__title-text_highlight{
+  background: #ECF3FF;
+}
