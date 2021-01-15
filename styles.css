@@ -136,3 +136,8 @@ border-radius: 4px;
 .main__title-text_highlight{
   background: #ECF3FF;
 }
+
+
+#menu__toggle {
+  opacity: 0;
+}
