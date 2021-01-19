@@ -205,13 +205,15 @@
   .wrapper {
     width: 92%;
   }
-
-  .main__title {
-    font: bold 45px/55px pt_serifbold, arial, helvetika, sans-serif;
+  .menu__item {
+    margin-top: 7px;
+    margin-right: 25px;
+    font: 500 14px/17px Roboto, arial, helvetika, sans-serif;
   }
-
-  .main__subtitle {
-    width: 260px;
+  .main__title {
+    padding: 15px 0;
+    margin: auto;
+    font: bold 48px/69px pt_serifbold, arial, helvetika, sans-serif;
   }
 }
 
@@ -326,10 +328,10 @@
     visibility: hidden;
     top: 0;
     left: -100%;
-    width: 300px;
+    width: 375px;
     height: 100%;
     margin: 0;
-    padding: 80px 0;
+    padding: 180px 0;
     list-style: none;
     background-color: #ffffff;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
@@ -338,13 +340,13 @@
 
   .menu__item {
     display: block;
-    padding: 12px 24px;
+    padding: 21px 24px;
     color: #000000;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     text-decoration: none;
-    transition-duration: .25s;
+    transition-duration: .25s
   }
 
   .menu__item:hover {
@@ -396,6 +398,14 @@
   .main__title {
     margin-bottom: 10px;
   }
+
+  .main__subtitle {
+    width: 254px;
+    height: 57px;
+    padding-bottom: 27px;
+  }
+}
+© 2021 GitHub, Inc.
 
   .main__subtitle {
     width: 254px;
