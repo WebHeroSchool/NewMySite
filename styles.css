@@ -323,6 +323,7 @@
   }
 
   .menu__box {
+    text-align:center;
     display: block;
     position: absolute;
     visibility: hidden;
@@ -339,18 +340,19 @@
   }
 
   .menu__item {
+    position: relative;
     display: block;
     padding: 21px 24px;
     color: #000000;
+    margin-right: 26px;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
-    transition-duration: .25s
+    transition-duration: .3s
   }
-
   .menu__item:hover {
-    background-color: #000000;
+    opacity: 0.5;
   }
 
   .main {
