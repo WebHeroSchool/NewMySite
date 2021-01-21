@@ -92,7 +92,7 @@
 .main__title {
 	padding: 70px 0 13px 0;
 	margin: auto;
-	font: normal 66px/88px 'pt_serifbold', arial, helvetika, sans-serif
+	font: 400 66px/88px 'pt_serifbold', arial, helvetika, sans-serif
 }
 .main__title-text_highlight {
 	background: #ecf3ff
