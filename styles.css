@@ -92,7 +92,7 @@
 .main__title {
 	padding: 70px 0 13px 0;
 	margin: auto;
-	font: bold 66px/88px 'pt_serifbold', arial, helvetika, sans-serif
+	font: normal 66px/88px 'pt_serifbold', arial, helvetika, sans-serif
 }
 .main__title-text_highlight {
 	background: #ecf3ff
@@ -128,7 +128,7 @@
 		background: top right no-repeat url(img/Frame_1366.svg)
 	}
 	.main__title {
-		font: bold 58px/77px 'pt_serifbold', arial, helvetika, sans-serif
+		font: normal 58px/77px 'pt_serifbold', arial, helvetika, sans-serif
 	}
 }
 @media (max-width: 1367px) {
@@ -153,7 +153,7 @@
 	.main__title {
 		padding: 20px 0;
 		margin: auto;
-		font: bold 50px/66px 'pt_serifbold', arial, helvetika, sans-serif
+		font: normal 50px/66px 'pt_serifbold', arial, helvetika, sans-serif
 	}
 	.main__subtitle {
 		width: 390px;
@@ -178,7 +178,7 @@
 	.main__title {
 		padding: 15px 0;
 		margin: auto;
-		font: bold 48px/69px 'pt_serifbold', arial, helvetika, sans-serif
+		font: normal 48px/69px 'pt_serifbold', arial, helvetika, sans-serif
 	}
 }
 @media (max-width: 1100px) {
@@ -188,7 +188,7 @@
 }
 @media (max-width: 1000px) {
 	.main__title {
-		font: bold 38px/58px 'pt_serifbold', arial, helvetika, sans-serif
+		font: normal 38px/58px 'pt_serifbold', arial, helvetika, sans-serif
 	}
 	.main__subtitle {
 		width: 200px;
@@ -203,7 +203,7 @@
 }
 @media (max-width: 800px) {
 	.main__title {
-		font: bold 32px/50px 'pt_serifbold', arial, helvetika, sans-serif;
+		font: normal 32px/50px 'pt_serifbold', arial, helvetika, sans-serif;
 		margin: 0px
 	}
 }
@@ -307,7 +307,7 @@
 	.main__title {
 		margin: auto;
 		margin-bottom: 20px;
-		font: bold 30px/39px 'pt_serifbold', arial, helvetica, sans-serif
+		font: normal 30px/39px 'pt_serifbold', arial, helvetica, sans-serif
 	}
 	.main__subtitle {
 		width: 400px;
@@ -336,6 +336,7 @@
 		margin-bottom: 10px
 	}
 	.main__subtitle {
+		margin-top: 17px;
 		width: 254px;
 		height: 57px;
 		padding-bottom: 27px
